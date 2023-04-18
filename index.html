@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Estilo CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fuente Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <title>Pagina de Proyectos</title>
+</head>
+<body>
+    <!--Menu de Navegacion-->
+    <header id="header">
+        <nav class="menu">
+            <div class="logo-box">
+                <h1>LReYmiK</h1>
+                <span class="btn-menu"><i class="fas fa-bars"></i></span>
+            </div>
+
+            <div class="list-container">
+                <ul class="lists">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!--img header-->
+        <div class="img-header">
+            <div class="welcome">
+                <h1>Bienvenido a mi Espacio Web</h1>
+                <hr>
+                <p>Portafolio donde muestro proyectos realizado por mi</p>
+                <button id="down">Ver abajo</button>
+            </div>
+        </div>
+    </header>
+    <!--Menu de navegacion-->
+
+    <main>
+        <!--Acerca de-->
+        <section class="acerca-de">
+            <div class="info-container">
+                <h1>Acerca de mi</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium perspiciatis iusto repellat neque? Sit maxime, unde ad eveniet recusandae odio molestiae eaque blanditiis quae enim facere tempora ea laudantium laborum!</p>
+            </div>
+
+            <div class="about-img">
+                <img src="./img/Luis Manuel Ruiz Duran-min.jpg" alt="">
+            </div>
+
+            <div class="about-more"><button>Leer mas</button></div>
+        </section>
+
+        <!--Mis Portafolio-->
+        <section class="my-portfolio">
+
+           <div class="deg-background"></div> 
+
+            <div class="ejezproject">
+                <div class="container-project">
+
+                    <div class="project-title">
+                        <h2>Algunos de mis proyectos</h2>
+                        <hr>
+                    </div>
+
+                    <div class="box-portfolio">
+                        <div class="card-portfolio">
+                            <div class="card-img"><img src="./img/pagina-nodeJs.png" alt=""></div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus autem, eveniet ut alias asperiores molestiae expedita aspernatur corrupti quae esse harum exercitationem commodi quo repudiandae! Commodi quidem laborum quam beatae.</p>
+                            <button>Ver codigo</button>
+                        </div>
+
+                        <div class="card-portfolio">
+                            <div class="card-img"><img src="./img/calculadora.png" alt=""></div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus autem, eveniet ut alias asperiores molestiae expedita aspernatur corrupti quae esse harum exercitationem commodi quo repudiandae! Commodi quidem laborum quam beatae.</p>
+                            <button>Ver codigo</button>
+                        </div>
+
+                        <div class="card-portfolio">
+                            <div class="card-img"><img src="./img/listadep.png" alt=""></div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus autem, eveniet ut alias asperiores molestiae expedita aspernatur corrupti quae esse harum exercitationem commodi quo repudiandae! Commodi quidem laborum quam beatae.</p>
+                            <button>Ver codigo</button>
+                        </div>
+
+                        <div class="card-portfolio">
+                            <div class="card-img"><img src="./img/agenda.png" alt=""></div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus autem, eveniet ut alias asperiores molestiae expedita aspernatur corrupti quae esse harum exercitationem commodi quo repudiandae! Commodi quidem laborum quam beatae.</p>
+                            <button>Ver codigo</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="deg-footer">
+            <div class="ejezfooter">
+                <div class="footer-content">
+                    <div class="footer-title">
+                        <h2>Formulario de Contacto</h2>
+                        <hr>
+                    </div>
+
+                    <div class="formulario-content">
+                        <form action="" id="formulario">
+                            <label for="user">Nombre</label>
+                            <input type="text" id="user" name="user" placeholder="Ingresa tu nombre">
+                            
+                            <label for="email">Nombre</label>
+                            <input type="email" id="email" name="email" placeholder="Ingresa tu Email">
+
+                            <label for="mensaje">Mensaje</label>
+                            <textarea name="mensaje" id="mensaje"></textarea>
+
+                            <div class="send"><button>Enviar</button></div>
+                        </form>
+                    </div>
+                </div>
+                <div class="footer-text">
+                    <p>&copy; LReYmiK Web - 2022 Todos los derechos reservados</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS-->
+    <script src="./app.js"></script>
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/83b19ee95a.js" crossorigin="anonymous"></script>
+</body>
+</html>
